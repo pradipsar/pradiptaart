@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Blog | pradiptasarmah</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="Images/Comrade.webp" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <button class="hamburger">&#9776;</button>
+            <div class="logo">
+                <img src="Images/Logo.webp" style="height:50px;float: left;"> 
+                <p>[Pradipta]</p>
+            </div>
+            <ul class="nav">
+                <li><a href="./index.html">Portfolio</a></li>
+                <li><a href="./Contact.html">About/Contact</a></li>
+                <li class="active"><a href="./blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="container">
+          <h1>Blog</h1>
+          <ul class="content-page">
+            <li><a href="./Blog/enigma-of-reason.html">Enigma of Reason</a> <span class="writing-type">review</span></li>
+            <li><a href="./Blog/my-opinion-on-reality.html">My Opinion on Reality</a></li>
+            <li><a href="./Blog/taxation-myth.html">Taxation Myth</a></li>
+            <li><a href="./Blog/the-changing-world-order.html">Changing World Order</a> <span class="writing-type">review</span></li>
+            <li><a href="./Blog/present-plundered.html">Present Plundered</a></li>
+          </ul>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+        
+        <script>
+            function closeview(){
+                document.getElementById("fullimageview").style.display="none";
+            }
+            document.addEventListener("DOMContentLoaded",function(){
+                const hamburger=document.querySelector(".hamburger");
+                const menu=document.querySelector(".nav");
+                const html=document.querySelector("html");
+                hamburger.addEventListener("click",function(){
+                    menu.classList.toggle("active");
+                    html.classList.toggle("active");
+                })
+            })
+        </script>
+    </body>
+</html>
