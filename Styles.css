@@ -172,6 +172,72 @@ hr {
     padding-top: 30px;
     text-align: right;
 }
+
+
+.content-page a{
+    color: #E2CCA9;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 15px;
+}
+.content-page {
+    color: #E2CCA9;
+  list-style-type: "x ";
+}
+.content-page li a:hover,.essay a:hover {
+    color: #B0B846;
+}
+.content-page li{
+  overflow: visible;
+
+}
+.essay{
+    color: #E2CCA9;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 15px;
+}
+.essay a{
+  color: #E2CCA9;
+}
+.writing-type{
+   font-size: 9px;
+   background-color: #413723;
+   color: #ec9e00;
+   display: inline-flex;
+   padding: 1px 5px 1px 5px;
+   border-radius: 13px;
+}
+.date-written{
+    color: #585143;
+}
+table{
+    color: #E2CCA9;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 15px;
+}
+table, td, th{
+    border: 1px solid #453e39;
+    border-collapse: collapse;
+}
+
+blockquote{
+  border-left: 4px solid #B0B846;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+blockquote p{
+  margin:0;
+}
+.essay li{
+    overflow: visible;
+}
+.quotes {
+  color: #B0B846;
+}
+
+
 @media screen and (max-width: 768px){
     html.active {
         overflow: hidden;
