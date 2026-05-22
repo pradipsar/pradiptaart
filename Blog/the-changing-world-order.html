@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Blog | pradiptasarmah</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="Images/Comrade.webp" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <button class="hamburger">&#9776;</button>
+            <div class="logo">
+                <img src="../Images/Logo.webp" style="height:50px;float: left;"> 
+                <p>[Pradipta]</p>
+            </div>
+            <ul class="nav">
+                <li><a href="../index.html">Portfolio</a></li>
+                <li><a href="../Contact.html">About/Contact</a></li>
+                <li class="active"><a href="../blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="container">
+          <h1>The Changing World Order</h1>
+          <span class="date-written">Fri • 8 Aug 2025 | Book by Ray Dalio<span>
+          <div class="essay">
+<h2 id="-overview">⚡ Overview</h2>
+<p>Usual capitalist propaganda. </p>
+<p>Barely could read the first hundred pages.</p>
+<blockquote>
+<p>⚠️
+Do not read this book</p>
+</blockquote>
+<h2 id="-ideas">💡 Ideas</h2>
+<ol>
+<li>Most wealthy people are owners of means of wealth production</li>
+<li>They conspire with governments to increase their wealth</li>
+<li>This leads to huge inequality. Finally harsh times force the weak to revolt. They overthrow the ruling class and the cycle repeats again</li>
+</ol>
+<h3 id="the-big-cycle">The big cycle</h3>
+<p>Not exactly defined. However, he argues that the big cycle is the force that governs the rise and decline of empires and everything revolving around it. For instance, market, currency ... <em>need more info</em></p>
+<p><strong>Evolution</strong> : upward movement towards improvement due to learning and adaptation
+<strong>cycle</strong>: back and forth movement of something 
+Everything moves as an ascending trajectory with cycles.</p>
+<p>Human productivity is the most important force that cause the shift in wealth, power and living standards.</p>
+<ul>
+<li>Human productivity and education are evolutionary, thus are steady change. They do not lead to abrupt change in power and wealth.</li>
+<li>Boom, busts, revolutions and wars lead to abrupt change in wealth and power. They are driven primarily by cycles. <em>what again was cycles?</em></li>
+</ul>
+<h2 id="-criticisms">🧠 Criticisms</h2>
+<ul>
+<li>He wrote, "Throughout time, the formula for success has been a system in which well educated people, operating civilly with each other, come up with innovations, receive funding through capital markets, and own the means by which their innovations are turned into the production and allocation of resources, allowing them to be rewarded by profit making." He completely ignores the fact that most innovations come from government (public spending) not capital markets. Internet, space administration, and so on.</li>
+<li>Majority of deaths in India in the chart has been attributed to famines, not colonialism a.k.a capitalism</li>
+<li>"Because these turbulent times are small in relation to the evolutionary uptrend of humanity’s capacity to adapt and invent, they barely show up in the previous charts of GDP" See this <a href="https://www.youtube.com/watch?v=RStKklOC-Z4">video</a></li>
+</ul>
+
+          </div>
+        </div>
+        <div class="container">
+            <hr>
+            <button class="topbutton" onclick="topFunction()">Top</button>
+        </div>
+        
+        <script>
+            function closeview(){
+                document.getElementById("fullimageview").style.display="none";
+            }
+            document.addEventListener("DOMContentLoaded",function(){
+                const hamburger=document.querySelector(".hamburger");
+                const menu=document.querySelector(".nav");
+                const html=document.querySelector("html");
+                hamburger.addEventListener("click",function(){
+                    menu.classList.toggle("active");
+                    html.classList.toggle("active");
+                })
+            })
+            function topFunction() { 
+                window.scrollTo(0,0);
+            }
+        </script>
+    </body>
+</html>
